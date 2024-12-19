@@ -18,4 +18,4 @@ rectangles = [
     [(2, 2), (7, 7)]     # Четвертый прямоугольник
 ]
 # Вычисляем уникальную площадь пересечения всех прямоугольников с помощью функции intersectionAreaMultiRect
-intersectionAreaMultiRect.intersectionAreaMultiRect(rectangles)
+intersectionAreaMultiRect.intersectionAreaMultiRect(rectangles)       
