@@ -7,3 +7,4 @@ def isCorrectRect():
         print("False")  # Некорректный прямоугольник
     else:
         print("True")   # Корректный прямоугольник
+   
