@@ -9,7 +9,7 @@ def isCollisionRect():
     x1_rect1, y1_rect1 = rect1[0]
     x2_rect1, y2_rect1 = rect1[1]
     x1_rect2, y1_rect2 = rect2[0]
-    x2_rect2, y2_rect2 = rect2[1]
+    x2_rect2, y2_rect2 = rect2[1]    
 
     # Проверка пересечения по оси Y
     if y2_rect1 < y1_rect2 or y2_rect2 < y1_rect1:
