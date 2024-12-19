@@ -4,7 +4,7 @@ class RectCorrectError():
 def intersectionAreaRect():
     rect1 = [(-7, 0), (13, 12)]  # Первый прямоугольник
     rect2 = [(-3, 1), (9, 10)]  # Второй прямоугольник
-
+       
     # Координаты вершин
     x1, y1 = rect1[0]
     x2, y2 = rect1[1]
