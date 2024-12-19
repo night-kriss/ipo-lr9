@@ -4,7 +4,7 @@ class RectCorrectError(Exception):
 def intersectionAreaMultiRect(rectangles):
     if not rectangles:
         return 0  # Если список пустой, пересечение = 0
-
+      
     for rect in rectangles:
         (x1, y1), (x2, y2) = rect
         if x1 >= x2 or y1 >= y2:
